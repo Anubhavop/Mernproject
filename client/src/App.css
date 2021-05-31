@@ -1,0 +1,226 @@
+
+.image{
+  height: 40px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+    background-color: #dedede;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    
+    
+}
+
+.height {
+    height: 100vh
+}
+
+.card {
+    border: none;
+    padding: 20px;
+    background-color: #1c1e21;
+    color: #fff;
+    /* -webkit-box-shadow: 0px 1px 9px 3px rgba(219, 210, 219, 1);
+  -moz-box-shadow: 0px 1px 9px 3px rgba(219, 210, 219, 1);
+    box-shadow: 0px 1px 9px 3px rgba(219, 210, 219, 1); */
+}
+
+
+
+.form-input {
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+.form-input i {
+    position: absolute;
+    font-size: 18px;
+    top: 15px;
+    left: 10px
+}
+
+.form-control {
+    height: 50px;
+    background-color: #1c1e21;
+    text-indent: 24px;
+    font-size: 15px;
+    color: rgb(235, 227, 227);
+}
+
+.form-control:focus {
+    background-color: #25272a;
+    box-shadow: none;
+    color: rgb(226, 220, 220);
+    border-color: #e74f4f
+}
+
+.form-check-label {
+    margin-top: 2px;
+    font-size: 14px
+}
+
+.signup {
+    height: 50px;
+    font-size: 14px;
+}
+
+/* .social {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer
+}
+
+.social:hover {
+    background-color: #0d6efd;
+    border-color: #0d6efd
+} */
+.log{
+  color:tomato;
+}
+
+.cc{
+  padding: 10px;
+  height: 250px;
+  border: none;
+  /* -webkit-box-shadow: 0px 1px 9px 3px rgba(219, 210, 219, 1);
+  -moz-box-shadow: 0px 1px 9px 3px rgba(219, 210, 219, 1);
+  box-shadow: 0px 1px 9px 3px rgba(219, 210, 219, 1); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #25272a;
+  
+}
+/* body{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+} */
+.emp-profile{
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 0.5rem;
+    /* background: #fff; */
+    background-color: #1c1e21;
+    /* -webkit-box-shadow: 0px 1px 9px 3px rgba(219, 210, 219, 1);
+  -moz-box-shadow: 0px 1px 9px 3px rgba(219, 210, 219, 1);
+    box-shadow: 0px 1px 9px 3px rgba(219, 210, 219, 1); */
+}
+.profile-img{
+    text-align: center;
+}
+.profile-img img{
+    width: 70%;
+    height: 100%;
+}
+.profile-img .file {
+    position: relative;
+    overflow: hidden;
+    margin-top: -20%;
+    width: 70%;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+    background: #212529b8;
+}
+.profile-img .file input {
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+.profile-head h5{
+    color: rgb(241, 237, 237);
+}
+.profile-head h6{
+    color: #e7ebee;
+}
+.profile-edit-btn{
+    border: none;
+    border-radius: 1.5rem;
+    width: 70%;
+    padding: 2%;
+    font-weight: 600;
+    color: #dd0a0a;
+    cursor: pointer;
+}
+.proile-rating{
+    font-size: 12px;
+    color: #d2d2e2;
+    margin-top: 5%;
+}
+.proile-rating span{
+    color: #f7f9fc;
+    font-size: 15px;
+    font-weight: 600;
+}
+.profile-head .nav-tabs{
+    margin-bottom:5%;
+}
+.profile-head .nav-tabs .nav-link{
+    font-weight:600;
+    border: none;
+}
+.profile-head .nav-tabs .nav-link.active{
+    border: none;
+    border-bottom:2px solid #cc0000;
+}
+.profile-work{
+    padding: 14%;
+    margin-top: -15%;
+}
+.profile-work p{
+    font-size: 12px;
+    color: #f2f2f8;
+    font-weight: 600;
+    margin-top: 10%;
+}
+.profile-work a{
+    text-decoration: none;
+    color: #f7fafd;
+    font-weight: 600;
+    font-size: 14px;
+}
+.profile-work ul{
+    list-style: none;
+}
+.profile-tab label{
+    font-weight: 600;
+    color: #eef1f5;
+}
+.profile-tab p{
+    font-weight: 600;
+    color: #eef1f5;
+}
+
+.mm{
+    color: #cc0000;
+}
+
+.ll{
+    background: #dedede;
+}
+.page-wrap {
+    min-height: 100vh;
+}
+.gg{
+    color: black;
+}
+.not-found {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Girassol', cursive
+}
+.picture{
+    height: 200px;
+    width: 200px;
+}
+
